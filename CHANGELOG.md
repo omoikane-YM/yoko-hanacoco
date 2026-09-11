@@ -7,3 +7,7 @@ Webサイト本体の変更履歴を簡潔に記録する。既存履歴は削�
 - 変更内容: AIによる長期運営のため、運営ルール、正式情報、公開前チェックリスト、変更履歴の管理基盤を整備
 - 対象ファイル: `AGENTS.md`、`SITE_FACTS.md`、`CHECKLIST.md`、`CHANGELOG.md`
 - 理由: Codexが安全かつ一貫した手順でサイトを運営・修正できるようにするため
+
+- 変更内容: 正式情報を `src/data/site-facts.json` に集約し、HTMLテンプレートから公開用サイトを生成する構造へ移行
+- 対象ファイル: `src/data/site-facts.json`、`scripts/build.mjs`、`scripts/check.mjs`、`index.html`、`legal/index.html`、`SITE_FACTS.md`、`AGENTS.md`、`.github/workflows/pages.yml`、`package.json`、`.gitignore`
+- 理由: 表示内容を維持しながら、重要情報を一元管理して安全に更新できるようにするため

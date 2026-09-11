@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "name": "yoko🌸hanacoco🌸",
+    "footerText": "~おへそにも耳にも、あなたと抗酸化セラミック~"
+  },
+  "hero": {
+    "heading": "日常に喜びと、ワクワクを。"
+  },
+  "product": {
+    "name": "パール調ピアス",
+    "priceYen": 8800,
+    "priceSummary": "8,800円（税込・送料込）",
+    "material": "抗酸化特殊溶液配合の多用途セラミックス",
+    "sizeMm": 5,
+    "design": "パール調",
+    "postMaterial": "サージカルステンレス316",
+    "catchMaterial": "クリア透明色の樹脂シリコン"
+  },
+  "order": {
+    "method": "LINE",
+    "messageDoesNotConfirm": "「注文する」の送信時点では、ご注文は確定しません。",
+    "confirmationPoint": "入金確認時点",
+    "orderUrl": "https://line.me/R/oaMessage/%40229zverk/?%E6%B3%A8%E6%96%87%E3%81%99%E3%82%8B",
+    "contactUrl": "https://line.me/R/oaMessage/%40229zverk/?%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B",
+    "officialAccountUrl": "https://lin.ee/UHSw4Aa"
+  },
+  "shipping": {
+    "leadTime": "入金確認後7営業日以内",
+    "shippingIncluded": true
+  },
+  "returns": {
+    "customerConvenience": "ご注文成立後のお客様都合による返品・交換・キャンセルはお受けしておりません。",
+    "damageWindow": "商品到着後7日以内",
+    "handmadeVariance": "これらの個体差はハンドメイド品の特性であり、品質上の問題には当たらないため、返品・交換の対象外です。",
+    "summary": "破損・配送時の損傷などを除き原則不可",
+    "handmadeVarianceIsNotReturnReason": true
+  }
+}
