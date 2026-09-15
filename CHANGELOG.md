@@ -33,3 +33,9 @@ Webサイト本体の変更履歴を簡潔に記録する。既存履歴は削�
 - 変更内容: イヤリング案内文を更新し、2種類の商品写真を案内文の下に追加。トップ画像は従来の内容を維持
 - 対象ファイル: `index.html`、`src/data/site-facts.json`、`SITE_FACTS.md`、`images/earring-clip.jpg`、`images/earring-nonhole.jpg`
 - 理由: イヤリング商品情報を専用の商品画像として表示するため
+
+## 2026-09-16
+
+- 変更内容: Googleアナリティクスの測定IDを `G-7Y8B86FG81` に統一し、トップページと法定表示ページへGoogleタグを設定
+- 対象ファイル: `index.html`、`legal/index.html`
+- 理由: Googleアナリティクスで全ページのアクセスを計測するため
