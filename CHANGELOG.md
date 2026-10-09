@@ -39,3 +39,9 @@ Webサイト本体の変更履歴を簡潔に記録する。既存履歴は削�
 - 変更内容: Googleアナリティクスの測定IDを `G-7Y8B86FG81` に統一し、トップページと法定表示ページへGoogleタグを設定
 - 対象ファイル: `index.html`、`legal/index.html`
 - 理由: Googleアナリティクスで全ページのアクセスを計測するため
+
+## 2026-10-09
+
+- 変更内容: GitHub Pagesの独自ドメインを `yoko-hanacoco.jp` に設定し、ビルド成果物へCNAME設定を含めるように変更
+- 対象ファイル: `CNAME`、`scripts/build.mjs`
+- 理由: お名前.comで取得・DNS設定済みの独自ドメインからサイトを公開するため

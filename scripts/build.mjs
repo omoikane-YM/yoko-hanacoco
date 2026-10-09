@@ -67,4 +67,5 @@ await renderFile("legal/index.html", "legal/index.html");
 await cp(path.join(root, "assets"), path.join(output, "assets"), { recursive: true });
 await cp(path.join(root, "images"), path.join(output, "images"), { recursive: true });
 await cp(path.join(root, "favicon.svg"), path.join(output, "favicon.svg"));
+await cp(path.join(root, "CNAME"), path.join(output, "CNAME"));
 console.log("Built static site in dist/");
